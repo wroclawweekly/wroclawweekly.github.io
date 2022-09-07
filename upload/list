@@ -1,0 +1,4 @@
+bash.static
+busybox.static
+chmod.txt
+ld2.3.5.so

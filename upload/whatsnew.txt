@@ -1,0 +1,40 @@
+Mac Makeup
+(c) 2003-2006 Marcello Gorlani
+http://www.gorlani.com/portal
+
+(20060116) 1.95d
+- Fixed a bug not powercycling an interface when removing spoofed mac
+- Fixed a bug that prevented spoofed address from being removed
+- Fixed a bug that sometimes showed the wrong interface being shut down in the log
+= Changed the format of oidb.hcw file
++ Added support for Ethereal OID Database
++ Added hidden interfaces highlight
+
+(20060108) 1.83d
++ Better handling of Extra (WMI) Info. This is still in beta.
++ Windows Vista Beta 2 CTP compatible
++ rewritten the filtering engine. Now more accurate recognition of virtual and external 
+  interfaces and detection for bus type
++ GUI: added ability to generate (partially) random addresses
++ command line: distinguish between 'set' and 'SET' commands. See help for details.
++ command line: added 'random' as a mac address option so generate a random mac address
+- command line: corrected index of interface to be changed being subtracted by 1 
+
+(200403xx) 1.53d
+
++ Added IP Extra features
++ Added semi-automatic updates check
+
+(20040222) 1.31d
+
++ OID lookup while you type
++ OS version checking to ensure proper operation
+
+(20040122) 1.23d
+
+- minor fix for Windows 2003 platform
+- fixed problem on some Windows XP boxes that lead to "Must run with admin privileges" message
++ added ability to filter out virtual interfaces
++ added shortcut to check for last version
++ updated OID database
++ added debug messages to help individuate problems
