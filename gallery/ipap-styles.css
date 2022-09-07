@@ -1,0 +1,154 @@
+body {
+  font-family:Georgia, "Bookman Old Style", "Times New Roman", Times, serif;
+  color:#666;
+  padding:0;
+  text-align:center;
+  /* -- hack! -- */
+  font-size:small !important;  /* for box-model-friendly browsers */
+  font-size /**/:x-small; /* for pre IE6 browsers */
+}
+
+
+#content {
+  text-align:left;
+  font-size:1em;
+  line-height:1.4;
+  padding:0; margin:0;
+  width:550px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+h1 {
+  font-weight:lighter;
+  font-size:2em;
+}
+
+
+h1 a,h1 a:link,h1 a:visited {
+  text-decoration:none;
+  color:#111;
+}
+
+
+
+/* for gallery page only */
+#gallery ul#full-gallery {
+  padding:0; margin:0;
+}
+#gallery ul#full-gallery li {
+  padding:0; margin:0;
+  list-style-type:none;
+  margin-bottom:40px;
+}
+
+
+
+
+/* album only */
+#album ul#thumbnails {
+  padding:0; margin:0;
+  margin-top:40px;
+  margin-bottom:40px;
+}
+#album ul#thumbnails li {
+  float:left;
+  padding:0;
+  list-style-type:none;
+  margin:0 10px 10px 0;
+}
+#album ul#thumbnails li img {
+  border:3px solid #666;
+}
+#album ul#album-list {
+  list-style-type: square;
+}
+
+
+
+
+
+
+/* gallery only */
+#gallery ul#full-gallery li img {
+  float:left;
+  margin:5px 10px 10px 0;
+  border:3px solid #666;
+}
+#gallery p.album-cover {
+  padding:0; margin:0;
+}
+
+
+
+
+h2 {
+  font-size:1.3em;
+  font-weight:lighter;
+  padding:0; margin:0;
+}
+
+
+
+
+#album h3,#album h4 {
+  clear:both;
+  position:relative;
+  font-size:1.3em;
+  font-weight:lighter;
+  padding:0; margin:0;
+  margin-top:40px;
+}
+
+#album p#current-image {
+  clear:both;
+  padding:0; margin:0;
+}
+
+#album p#current-image img {
+  border:3px solid #333;
+}
+
+#album .nav {
+  background:#666;
+  display:block;
+  margin-top:-2px;
+  padding:2px 10px;
+  /* -- hack! -- */
+  width:50px !important;  /* for box-model-friendly browsers */
+  width /**/:70px; /* for pre IE6 browsers */
+}
+
+#album .nav a,#album .nav a:link,#album .nav a:visited {
+  text-decoration:none;
+  color:#fff;
+  font:bold 12px Verdana,"Lucida Grande",Arial,Geneva,Lucida,Helvetica,sans-serif;
+}
+
+.album-info,.misc-info {
+  clear:right;
+  font-size:0.85em;
+  color:#555;
+  margin:0; padding:0;
+}
+
+#album .misc-info {
+  clear:both;
+}
+
+
+p.cite-generator {
+  margin-top:100px;
+}
+p.cite-generator cite {
+  font:normal 9px Verdana, "Lucida Grande", Arial, Geneva, Lucida, Helvetica, sans-serif;
+}
+
+a:link {
+  text-decoration:none;
+  color:#333;
+}
+a:visited {
+  text-decoration:none;
+  color:#399;
+}
