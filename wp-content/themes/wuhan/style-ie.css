@@ -1,0 +1,900 @@
+/*
+Theme Name: Wuhan
+Theme URI: http://wuhan.authenticasian.com/
+Description: Inspired by Macromedia website. Built based on <a href="http://binarybonsai.com/kubrick/">Kubrick</a>.
+Version: 0.3
+Author: Meng Gao
+Author URI: http://wuhan.authenticasian.com/
+
+	Wuhan v0.3
+	http://wuhan.authenticasian.com
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+
+
+
+
+
+/* Begin Typography & Colors */
+body {
+	font-size: 62.5%; /* Resets 1em to 10px */
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	background-color: #71828A;
+	color: #333;
+	text-align: center;
+	}
+
+#page {
+	text-align: left;
+	width: 762px;
+}
+
+
+
+#content {
+	font-size: 1.2em
+	}
+
+.widecolumn .entry p {
+	font-size: 1.05em;
+	margin: 0px;
+	}
+
+
+.narrowcolumn .entry, .widecolumn .entry {
+	line-height: 1.4em;
+	}
+
+.widecolumn {
+	line-height: 1.6em;
+	}
+
+.narrowcolumn .postmetadata {
+	text-align: center;
+	}
+
+.alt {
+	background-color: #f8f8f8;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	}
+
+
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	margin: 0px;
+	}
+
+h1, h2, h3 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-weight: bold;
+	}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	}
+
+.description {
+	font-size: 1.2em;
+	text-align: center;
+	}
+
+h2 {
+	font: 1.6em Georgia, Sans-Serif;
+	text-align: left;
+}
+
+h2.pagetitle {
+	font-size: 1.6em;
+	}
+
+#sidebar h2 {
+	font: 1.2em Georgia, Sans-Serif;
+}
+
+h3 {
+	font-size: 1.3em;
+	}
+
+h1, h1 a, h1 a:hover, h1 a:visited, .description {
+	text-decoration: none;
+	color: white;
+	}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+	color: #333;
+	}
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+
+.entry p a:visited {
+	color: #A367B1;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentlist li {
+	font-weight: bold;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	padding: 0px 10px 0px 10px;
+
+	}
+
+#sidebar {
+	font: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+	color: #777;
+	}
+
+code {
+	font: 1.1em 'Courier New', Georgia, Sans-Serif, Fixed;
+	}
+
+acronym, abbr, span.caps
+{
+	font-size: 1em;
+	}
+
+a, h2 a:hover, h3 a:hover {
+	color: #06c;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #147;
+	text-decoration: underline;
+	}
+
+#wp-calendar #prev a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	font: bold 1.3em Georgia, Sans-Serif;
+}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+/* End Typography & Colors */
+
+
+
+/* Begin Structure */
+body {
+	margin: 0;
+	padding: 0;
+	}
+
+#page {
+	margin: 0px auto;
+	padding: 0;
+	}
+
+
+
+.narrowcolumn {
+	float: left;
+	padding: 0 0 20px 16px;
+	margin: 0px 0 0;
+	width: 450px;
+	}
+
+.widecolumn {
+	padding: 10px 0 20px 0;
+	margin: 5px 0 0 150px;
+	width: 450px;
+	}
+
+.post {
+	text-align: justify;
+	position: relative;
+	font-family: Verdana, Sans-Serif;
+}
+
+.widecolumn .post {
+	margin: 0;
+	}
+
+.narrowcolumn .postmetadata {
+	padding-top: 5px;
+	margin: 0px;
+	}
+
+
+
+#footer {
+	padding: 0 0 0 0px;
+	margin: 0px auto 20px auto;
+	width: 760px;
+	clear: both;
+}
+
+#footer p {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	margin-left: -250px;
+	font: 1.2em Georgia, Sans-Serif;
+}
+/* End Structure */
+
+
+
+/*	Begin Headers */
+h1 {
+	padding-top: 70px;
+	margin: 0;
+	}
+
+.description {
+	text-align: center;
+	}
+
+h2 {
+	margin: 0px;
+	}
+
+h2.pagetitle {
+	margin-top: 30px;
+	text-align: center;
+}
+
+#sidebar h2 {
+	margin: 5px 0 0;
+	padding: 0;
+}
+
+h3 {
+	padding: 0;
+	margin: 30px 0 0;
+	}
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+	font-family: Georgia, Sans-Serif;
+
+	}
+/* End Headers */
+
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+/* End Images */
+
+
+
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body .entry ul {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+	}
+
+html>body .entry li {
+	margin: 0 0 0 10px;
+	}
+
+
+
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+	}
+
+.entry ol li, .entry ul li{
+	padding: 0;
+	margin: 0px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.entry ul li{
+	list-style: url("images/bullet.jpg") inside;
+}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+/* End Entry Lists */
+
+
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 15px;
+	padding-left: 20px;
+}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 0 0 20px;
+}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 0 0 10px;
+}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	margin: 3px 0 0;
+	padding: 0;
+}
+
+
+/* Begin Form Elements */
+#searchform {
+	margin: 10px auto;
+	padding: 5px 3px;
+	text-align: center;
+	}
+
+#sidebar #searchform #s {
+	width: 115px;
+	padding: 2px;
+	}
+
+#sidebar #searchsubmit {
+	padding: 1px;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform .textform {
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	font-size: 14px;
+	font-family: Georgia, Sans-Serif;
+	border: 1px solid #7f7f7f;
+}
+
+#commentform textarea {
+	width: 100%;
+	font-size: 14px;
+	padding: 1px;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	float: none;
+	margin: 0px;
+	text-align: center;
+	color: #7f7f7f;
+	padding: 0px;
+}
+/* End Comments */
+
+
+
+/* Begin Sidebar */
+#sidebar
+{
+	padding: 20px 0 10px 0;
+	margin-left: 502px;
+	width: 210px;
+	font: 1.25em Verdana, Sans-Serif;
+}
+
+#sidebar form {
+	margin: 0;
+	}
+/* End Sidebar */
+
+
+
+/* Begin Calendar */
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	font-size: 100%;
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	font-size: 100%;
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar th {
+	padding: 3px 0;
+	text-align: center;
+	font-family: Georgia, Sans-Serif;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	font-family: Georgia, Sans-Serif;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	}
+/* End Various Tags & Classes*/
+
+
+
+/* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
+	It won't be a stylish marriage, I can't afford a carriage.
+	But you'll look sweet upon the seat of a bicycle built for two." */
+
+/* Blockquote style and the nice background image */
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	background: url(images/quote.gif) no-repeat left top;
+	}
+
+
+/* This is the nice box all the entries are posted in */
+
+.post-top, .title, .entry, .post-bottom {
+	width:  465px;
+}
+
+.post-top {
+	background: url(images/title_top.jpg) no-repeat center top;
+	margin: 0px;
+	margin-bottom: 30px;
+}
+
+
+
+.title {
+	background: url(images/title_body.jpg) repeat-y center;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+.entry {
+	background: url(images/post_body.jpg) repeat-y center;
+	margin: 0px;
+	padding: 0px;
+	bottom: 11px;
+	position: relative;
+	font-family: Verdana, Sans-Serif;
+}
+
+.post-bottom {	
+	background: url(images/post_bottom.jpg) no-repeat left bottom;
+	padding: 15px 0px 0px 0px;
+	position: relative;
+	top: 6px;
+}
+
+/* End of the entry box */
+
+
+/* This is the horizontal rule that appeals on the sidebar */
+#sidebar ul li ul li ul li {
+	right: 0px;
+	border-top: 1px solid #acb0b5;
+	background-color: #eaeff3;
+	width: 250px;
+	font: 1px/1px monospace;
+	height: 1px;
+	margin-left: -47px;
+	margin-top: -25px;
+}
+
+.post p{	
+	margin:  0px;
+	padding: 15px;
+}
+
+/* Edit this to change the two-column background */
+
+#page-top 	{ 
+	background: url("images/frame_top.jpg") no-repeat center top;
+	clear: both;
+	bottom: 0px;
+	width: 762px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#page		{
+	background: url("images/frame_body.jpg") repeat-y center; 
+	border: none;
+	bottom: 21px;
+	position: relative;
+}
+
+#page-bottom {
+	background: url(images/frame_bottom.jpg) no-repeat center bottom;
+	padding-top: 38px;
+	width: 762px;
+}
+
+
+
+/* End of two-column background */
+
+.title h2, small {
+	padding: 0px 15px 0px 15px;
+	margin: 0px;
+	font-family: Georgia, Sans-Serif;
+}
+	
+/* Change the header image here */
+
+#headerimg {
+	height: 200px;
+	width: 100%;
+	background: url("images/header.jpg") no-repeat center;
+	margin: 20px auto 10px auto;
+}
+
+/* This is the nav bar on top of the page. I think this is the nicest part of the whole theme =) */
+
+#topbar {
+	background: url("images/top_bar.jpg") no-repeat center;
+	margin: 10px auto 10px auto;
+	height: 36px;
+	text-align: right;
+	width:  760px;
+}
+
+
+#topbar .searchform {
+	float: right;
+	font: 1.2em Verdana, Sans-Serif;
+	margin: 10px 10px 2px auto;
+}
+
+#topbar form {
+	margin: 0px;
+}
+
+/* See, I could have settled for the default text input field. But being a man with good taste and all, I've decided to make my own search-box */
+
+.search-box {
+	background: url("images/search.jpg") no-repeat center;
+	width: 118px;
+	border: none;
+	padding: 2px 2px 1px 5px;
+	height: 20px;
+}
+
+#topbar .nav {
+	height: 36px;
+	float: right;
+	font: 1.2em Verdana, Sans-Serif;
+	margin-top: 20px;
+}
+
+/* End of nav bar */
+
+a {
+	color: #0A5692;
+}
+
+/* Comment box (both styles) */
+
+#comments{
+	font-size:  1.1em;
+	text-align: left;
+}
+.comment-top-1 {
+	background: url("images/comment_top_1.jpg") no-repeat top;
+	width: 400px;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+
+.comment-bottom-1 {
+	background: url("images/comment_bottom_1.jpg") no-repeat bottom;
+	width: 400px;
+	padding: 30px 0px 0px 0px;
+}
+
+.comment-body-1 {
+	background: url("images/comment_body_1.jpg") repeat-y center;
+	width: 400px;
+	text-align: left;
+	padding: 0px;
+	position: relative;
+	bottom: 15px;
+	font-family: Verdana, Sans-Serif;
+}
+
+.comment-top-2 {
+	background: url("images/comment_top_2.jpg") no-repeat top;
+	width: 400px;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+
+.comment-bottom-2 {
+	background: url("images/comment_bottom_2.jpg") no-repeat bottom;
+	width: 400px;
+	padding: 30px 0px 0px 0px;
+}
+
+.comment-body-2 {
+	background: url("images/comment_body_2.jpg") repeat-y center;
+	width: 400px;
+	text-align: left;
+	padding: 0px;
+	position: relative;
+	bottom: 15px;
+	font-family: Verdana, Sans-Serif;
+}
+
+.comment-body-1 p, .comment-body-2 p {
+	margin: 0px;
+	padding: 10px;
+}
+
+/* End of Comment box */
+.respond {
+	border-bottom: 1px dotted #7f7f7f;
+	font: 1.5em Georgia, Lucida Grande, Sans-Serif;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+
+
+
+/* For those of you who use Ryan's WP-ContactForm plug-in. Go to wp-contactform.php and comment out the line add_filter('wp_head', 'wpcf_css'); at the bottom. */
+ .contactform form {
+	width: 80%; 
+	position: relative;
+	margin: 0px;
+	padding: 5px;
+}
+		
+.entry .contactleft { 
+	text-align: left;
+	float: left; 
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+	
+.entry .contactright {
+	width: 250px;  
+	float: right; 
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+/* End of ContactForm Styles */
+
+.alignleft a, .alignright a,.postmetadata, .commentmetadata {
+	font-family:  Georgia, Sans-Serif;
+	font-variant: small-caps;
+}
+
+.entry p {
+	margin:  0px;
+	padding: 15px;
+	}
+
+/* custom */
+
+	
+.license {
+	color: #ffffff;
+}
+a.cc {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/* custom */
+
+.marginleft {
+	float: left;
+	padding-top: 0px;
+	padding-right:10px;
+ margin: 5px 5px 5px 5px;
+}
+
+.marginright {
+	float: right;
+	padding-top: 0px;
+	padding-left:10px;
+ margin: 5px 5px 5px 5px;
+}
+
+.imageleft {
+ clear: left;
+ line-height: 0;
+ height: 0;
+ }
+ 
+.imageright {
+ clear: right;
+ line-height: 0;
+ height: 0;
+ }

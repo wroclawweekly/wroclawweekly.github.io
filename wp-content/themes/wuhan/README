@@ -1,0 +1,1 @@
+For those of you who use Ryan's WP-ContactForm plug-in. Go to wp-contactform.php and comment out the line add_filter('wp_head', 'wpcf_css'); at the bottom.
