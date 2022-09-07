@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Category Excluder 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-11 14:27+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: DjZoNe <djz@djz.hu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+
+#: D:\!SVN\advanced-category-excluder\tags\1.2/advanced-category-excluder.php:15
+msgid "Archive"
+msgstr ""
+
+#: advanced-category-excluder.php:15
+msgid "Home"
+msgstr ""
+
+#: advanced-category-excluder.php:15
+msgid "RSS Posts"
+msgstr ""
+
+#: advanced-category-excluder.php:15
+msgid "RSS Comments"
+msgstr ""
+
+#: advanced-category-excluder.php:15
+msgid "Search"
+msgstr "Keresés"
+
+#: advanced-category-excluder.php:17
+msgid "Do you want the categories selected for <strong>Home</strong> section, to be hidden from category list as well?"
+msgstr "Szeretnéd, hogy a <strong>főoldalra</strong> beállított kategóriák a kategória listázásból is eltűnnének?"
+
+#: advanced-category-excluder.php:18
+msgid "Do you want the category lister, to list the empty categories?"
+msgstr ""
+
+#: advanced-category-excluder.php:19
+msgid "Do you want to display Event Calendar default category in the <a href=\""
+msgstr ""
+
+#: advanced-category-excluder.php:229
+msgid "ACE"
+msgstr ""
+
+#: advanced-category-excluder.php:234
+#: D:\!SVN\advanced-category-excluder\tags\1.2/main.php:13
+msgid "Settings"
+msgstr "Beállítások"
+
+#: advanced-category-excluder.php:235
+#: D:\!SVN\advanced-category-excluder\tags\1.2/pages/categories.php:90
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: advanced-category-excluder.php:236
+#: D:\!SVN\advanced-category-excluder\tags\1.2/pages/tags.php:2
+msgid "Tags"
+msgstr "Cimkék"
+
+#: advanced-category-excluder.php:237
+msgid "Plugins homepage"
+msgstr ""
+
+#: advanced-category-excluder.php:237
+msgid "Plugin homepage"
+msgstr ""
+
+#: /pages/categories.php:93
+#, php-format
+msgid "Here are %s different sections on the site. You can define section by section which categories would you like to hide."
+msgstr ""
+
+#: /pages/categories.php:119
+msgid "Doit!"
+msgstr ""
+
+#: /pages/categories.php:120
+msgid "Wipe out!"
+msgstr ""
+
+#: /pages/home.php:2
+msgid "Homepages"
+msgstr ""
+
+#: /pages/tags.php:3
+msgid "Coming soon ;)"
+msgstr ""
+
+#: /pages/tags.php:4
+msgid "Stay updated!"
+msgstr ""
+

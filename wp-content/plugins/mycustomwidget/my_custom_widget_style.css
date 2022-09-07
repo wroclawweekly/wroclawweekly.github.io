@@ -1,0 +1,72 @@
+ <style type="text/css">
+    
+    .mcw_debug{
+    color:#4B963C;
+    background:#EEEEEE none repeat scroll 0%;
+    }
+    
+    .mcw_config_table{
+      border-spacing: 2px;
+      border-collapse: collapse;
+	    border-width: 1px 1px 1px 1px;
+	    padding: 1px 1px 1px 1px;
+	    border-style: dotted dotted dotted dotted;
+	    border-color: gray gray gray gray;
+	    background-color: white;
+	    empty-cells: show;
+	    -moz-border-radius: 0px 0px 0px 0px;
+    }
+    
+    table.mcw_config_filters {
+      border-spacing: 2px;
+      border-collapse: collapse;
+	    border-width: 1px 1px 1px 1px;
+	    padding: 1px 1px 1px 1px;
+	    border-style: dotted dotted dotted dotted;
+	    border-color: gray gray gray gray;
+	    background-color: white;
+	    empty-cells: show;
+	    -moz-border-radius: 0px 0px 0px 0px;
+    }
+    
+    .mcw_option_table{
+      border-spacing: 2px;
+      border-collapse: collapse;
+	    border-width: 1px 1px 1px 1px;
+	    padding: 1px 1px 1px 1px;
+	    border-style: dotted dotted dotted dotted;
+	    border-color: gray gray gray gray;
+	    background-color: white;
+	    empty-cells: show;
+	    -moz-border-radius: 0px 0px 0px 0px;
+    }
+    
+    .mcw-row {
+      clear:both;
+      width: 95%;
+    }
+    .mcw_preview{
+      border: 1px dotted;
+      padding:7px;
+      clear:both;
+      width: 100%;
+    }    
+    .mcw-row label {
+      width: 100%;
+      padding-top:7px;
+      float:left;
+    }
+    .mcw-row-small label {
+      width: <?php echo MCW_get_filter_width().'px'; ?>; 
+      padding-top:1px;
+      float:left;
+    }
+    .mcw-row input{
+      width: 20px;
+      float:left;
+    } 
+    .mcw-row textarea {
+      width: 100%;
+      float:left;
+    }
+  </style>    
