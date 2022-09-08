@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content collectionGUID="BF8124DB-6C2A-46C9-8CE7-B2A89159B584">
+  <lastEdited clientType="local-build-20200314" date="2020-03-14 09:52:30 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Japanese Learning Center v.3.0 &#xD;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>60a (L00-42a)	-&gt; zdjmzyp&#xD;60b (L00-42b)	-&gt; bjhnktv&#xD;&#xD;45a (L00-48a)	-&gt; igbmad7&#xD;45b (L00-48b)	-&gt; xqnpusv&#xD;45c (L00-48c)	-&gt; wxezfro&#xD;&#xD;The lessons will take place as schedule at these virtual classrooms:&#xD;[60a] Mon 15:15-16:45 / Wed 13:15-14:45&#xD;[60b] Mon 17:05-18:35 / Wed 15:15-16:45&#xD;[45a] Tue 13:15-14:45 / Thu TP 11:15-12:45&#xD;[45b] Tue 15:15-16:45 / Thu TN 11:15-12:45&#xD;[45c] Tue TP 17:05-18:35 / Thu 13:15-14:45 + 16.06.2020 (Tue) 17:50-18:35&#xD;&#xD;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Google Classroom Codes</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>Friday, March 13, 2020</richText>
+  </textBox>
+</content>

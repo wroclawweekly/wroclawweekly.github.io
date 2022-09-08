@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>News</title>
+    <link>http://www.wroclawweekly.pl/jp/Japanese_Learning_Center/News</link>
+    <description>
+  </description>
+    <item>
+      <title>Office hours</title>
+      <link>http://www.wroclawweekly.pl/jp/Japanese_Learning_Center/News/Entries/2020/3/15_Office_hours.html</link>
+      <guid isPermaLink="false">4c57ac48-352b-4499-9b53-12f7132c5788</guid>
+      <pubDate>Sun, 15 Mar 2020 08:46:38 +0100</pubDate>
+      <iweb:comment enabled="0" count="0" link="http://www.wroclawweekly.pl/jp/Japanese_Learning_Center/News/Entries/2020/3/15_Office_hours.html#comment_layer"></iweb:comment>
+    </item>
+    <item>
+      <title>Google Classroom Codes</title>
+      <link>http://www.wroclawweekly.pl/jp/Japanese_Learning_Center/News/Entries/2020/3/13_Google_Classroom_Codes.html</link>
+      <guid isPermaLink="false">a77b7170-df9b-4b08-92b7-064ae903696a</guid>
+      <pubDate>Fri, 13 Mar 2020 21:44:03 +0100</pubDate>
+      <iweb:comment enabled="0" count="0" link="http://www.wroclawweekly.pl/jp/Japanese_Learning_Center/News/Entries/2020/3/13_Google_Classroom_Codes.html#comment_layer"></iweb:comment>
+    </item>
+    <item>
+      <title>Homework links</title>
+      <link>http://www.wroclawweekly.pl/jp/Japanese_Learning_Center/News/Entries/2020/2/23_Homework_links.html</link>
+      <guid isPermaLink="false">3ddf4906-b836-4719-bfdc-bbcd97c4c1dd</guid>
+      <pubDate>Sun, 23 Feb 2020 11:50:03 +0100</pubDate>
+      <iweb:comment enabled="0" count="0" link="http://www.wroclawweekly.pl/jp/Japanese_Learning_Center/News/Entries/2020/2/23_Homework_links.html#comment_layer"></iweb:comment>
+    </item>
+    <item>
+      <title>About absence</title>
+      <link>http://www.wroclawweekly.pl/jp/Japanese_Learning_Center/News/Entries/2016/3/3_About_absence.html</link>
+      <guid isPermaLink="false">44ee4c3b-6fbb-41c9-8e0e-6494c386591a</guid>
+      <pubDate>Thu, 3 Mar 2016 11:05:21 +0100</pubDate>
+      <iweb:comment enabled="0" count="0" link="http://www.wroclawweekly.pl/jp/Japanese_Learning_Center/News/Entries/2016/3/3_About_absence.html#comment_layer"></iweb:comment>
+    </item>
+    <iweb:dateFormat>EEEE d MMMM y</iweb:dateFormat>
+    <iweb:baseURL>http://www.wroclawweekly.pl/jp/Japanese_Learning_Center/News</iweb:baseURL>
+    <iweb:maximumSummaryItems>7</iweb:maximumSummaryItems>
+  </channel>
+</rss>

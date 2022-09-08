@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content collectionGUID="BF8124DB-6C2A-46C9-8CE7-B2A89159B584">
+  <lastEdited clientType="local-build-20121101" date="2012-11-01 19:32:50 +0100"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Japanese Learning Center v.3.0 &#xD;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>The A1 homework link:&#xD;&lt;a href="http://simp.ly/publish/QMTy52"&gt;http://simp.ly/publish/QMTy52&lt;/a&gt;&#xD;doesn&#x2019;t seem to want to update, so &lt;b&gt;I&#x2019;m permanently moving the homework to the backup URL&lt;/b&gt;: &#xD;&lt;a href="https://www.dropbox.com/s/mmncsm4pqol78yx/Homework_A1.txt"&gt;https://www.dropbox.com/s/mmncsm4pqol78yx/Homework_A1.txt&lt;/a&gt;&#xD;&#xD;From now on, please check the dropbox link for the homework.&#xD;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Backup Homework URL 2</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>Wednesday, October 31, 2012</richText>
+  </textBox>
+</content>

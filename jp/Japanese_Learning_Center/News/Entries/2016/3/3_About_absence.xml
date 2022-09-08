@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content collectionGUID="BF8124DB-6C2A-46C9-8CE7-B2A89159B584">
+  <lastEdited clientType="local-build-20200224" date="2020-02-24 09:24:22 +0000"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Japanese Learning Center v.3.0 &#xD;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>I&#x2019;m getting a few e-mails about absence. I&#x2019;d like to remind everyone that:&#xD;&#xD;students have the obligation to attend the lecture;&#xD;students have the right to miss 2 lessons for the 45-hour course, 3 lessons for the 60-hour course;&#xD;if you are ill or have to go away because of the study-related business, with the presentation of the proof, your absence will be excused;&#xD;other reasons do not constitute the reason for your absence;&#xD;even with excuse, the number of your absence must not exceed 10.&#xD;&#xD;When you are absent because of your work or some urgent personal matter, I said I will consider the circumstance of your absence, BUT it will be still counted as &#x201C;absence.&#x201D; Please remember the item 1) above.&#xD;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>About absence</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>Thursday, March 3, 2016</richText>
+  </textBox>
+</content>

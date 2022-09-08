@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content collectionGUID="BF8124DB-6C2A-46C9-8CE7-B2A89159B584">
+  <lastEdited clientType="local-build-20131003" date="2013-10-03 21:46:10 +0200"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Japanese Learning Center v.3.0 &#xD;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>The new semester is about to start.&#xD;I updated some info on the site (just a little bit).&#xD;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Winter 2013/14</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>Sunday, September 29, 2013</richText>
+  </textBox>
+</content>

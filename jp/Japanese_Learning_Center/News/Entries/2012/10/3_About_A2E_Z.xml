@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content collectionGUID="BF8124DB-6C2A-46C9-8CE7-B2A89159B584">
+  <lastEdited clientType="local-build-20121101" date="2012-11-01 19:32:50 +0100"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Japanese Learning Center v.3.0 &#xD;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>For the 7th semester students whose semester ends in 10 weeks, here is the evaluation guideline: you will have 3 tests (like all the other students), and each test counts for 20%. Because you have 5 weeks less (1/3 of the semester), your maximum point will not be 100%; the maximum of the total point will be 60%. The grade will be based on the chart I gave you at the beginning of the semester. </richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>7th Semester Evaluation</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>Wednesday, October 3, 2012</richText>
+  </textBox>
+</content>

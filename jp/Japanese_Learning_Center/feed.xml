@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:6DD50FCE-8DB3-46D9-AB91-C4355FCB3CEB</id>
+ <title>Page list Atom feed</title>
+ <updated>2020-03-15T16:28:39+01:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:9AB5291F-7CC8-47EA-9FF9-A251AB29E777</id>
+  <title>News</title>
+  <title xmlns="urn:iweb:">News</title>
+  <in-navbar xmlns="urn:iweb:">9AB5291F-7CC8-47EA-9FF9-A251AB29E777</in-navbar>
+  <link rel="alternate" href="News/News.html"/>
+  <updated>2020-03-15T16:28:39.001+01:00</updated>
+  <content>News</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:BD15CF54-D867-4902-B0CB-43B696E60313</id>
+  <title>Private Lessons</title>
+  <title xmlns="urn:iweb:">Private Lessons</title>
+  <in-navbar xmlns="urn:iweb:">BD15CF54-D867-4902-B0CB-43B696E60313</in-navbar>
+  <link rel="alternate" href="Private_Lessons.html"/>
+  <updated>2020-03-15T16:28:39.002+01:00</updated>
+  <content>Private Lessons</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:DB96432A-E9A2-4642-A1E6-4D2F20FC9C50</id>
+  <title>Learning Resources</title>
+  <title xmlns="urn:iweb:">Learning Resources</title>
+  <in-navbar xmlns="urn:iweb:">DB96432A-E9A2-4642-A1E6-4D2F20FC9C50</in-navbar>
+  <link rel="alternate" href="Learning_Resources.html"/>
+  <updated>2020-03-15T16:28:39.003+01:00</updated>
+  <content>Learning Resources</content>
+ </entry>
+</feed>

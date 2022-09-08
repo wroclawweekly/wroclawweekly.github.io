@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content collectionGUID="BF8124DB-6C2A-46C9-8CE7-B2A89159B584">
+  <lastEdited clientType="local-build-20131013" date="2013-10-13 20:17:42 +0200"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Japanese Learning Center v.3.0 &#xD;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Office Hours:&#xD;- Monday 9:40-11:00&#xD;- Tuesday 8:40-10:00&#xD;	-	Thursday 8:40-10:00&#xD;&#xD;What I CANNOT do in my office hours:&#xD;	-	Talk about the stuff other than concerning the course&#xD;	-	Go over the content of the lessons&#xD;	-	Solve your problem with SJO or PWr or in life&#xD;&#xD;I&#x2019;ll be in the office most of the time but, before the test dates, I may be out to make photocopies.&#xD;&#xD;</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Office Hours</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>Sunday, October 13, 2013</richText>
+  </textBox>
+</content>
