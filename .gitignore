@@ -1,4 +1,8 @@
 
 *.syncfolderspro
 .DS_Store
-.DS_Store
+index.php/.DS_Store
+jp/.DS_Store
+jp/ew_css/.DS_Store
+wp-content/.DS_Store
+wp-content/htmlarea/.DS_Store
